@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet">
+    <title>Divyansh's Portfolio</title>
+    <link rel="stylesheet" href="indexcss.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left" title="Frontend Developer">Divyansh Bansal</div>
+            <div class="right">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="project.html">Projects</a></li>
+                    <li><a href="contact.html" target="_self">Contact</a></li>
+                    <li><a href="https://drive.google.com/file/d/1DF20CCy1VuXBjOTD0DQvZ26Np3fN8C1s/view?usp=sharing">Resume</a></li>
+                    </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+
+        <section class="first">
+            <div class="leftsec">
+                Hi, My name is <br>
+                <span>Divyansh Bansal</span><br> 
+                and I am a <br>
+                <span id="element"></span>
+
+            </div>
+            <div class="rightsec">
+                <img src="bgimage.png" alt="">
+            </div>
+        </section>
+        <hr>
+         </main>
+
+         <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+         <script>
+             var typed = new Typed('#element', {
+               strings: ['Frontend Developer'],
+               typeSpeed: 30,
+             });
+           </script>
+</body>
+</html>
